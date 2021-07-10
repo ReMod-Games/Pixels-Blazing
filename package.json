@@ -1,0 +1,28 @@
+{
+    "name": "pixels-blazing",
+    "version": "1.0.0",
+    "description": "Pixels Blazing is a top-down isometric shooter game.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo Test Commands!",
+        "yarn": "npm i yarn",
+        "get_dep": "yarn add phaser && yarn add typescript"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ReMod-Studios-Games/Pixels-Blazing.git"
+    },
+    "keywords": [
+        "2d",
+        "js",
+        "ts",
+        "isometric",
+        "shooter"
+    ],
+    "author": "ReMod Studios",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/ReMod-Studios-Games/Pixels-Blazing/issues"
+    },
+    "homepage": "https://github.com/ReMod-Studios-Games/Pixels-Blazing#readme"
+}
