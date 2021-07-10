@@ -24,5 +24,11 @@
     "bugs": {
         "url": "https://github.com/ReMod-Studios-Games/Pixels-Blazing/issues"
     },
-    "homepage": "https://github.com/ReMod-Studios-Games/Pixels-Blazing#readme"
+    "homepage": "https://github.com/ReMod-Studios-Games/Pixels-Blazing#readme",
+    "dependencies": {
+        "phaser": "^3.55.2",
+        "typescript": "^4.3.5",
+        "yarn": "^1.22.10"
+    },
+    "type": "module"
 }
