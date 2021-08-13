@@ -1,10 +1,10 @@
 export const fs = require('fs')
 
 export enum LogType {
-    "INFO",
-    "WARN",
-    "ERROR",
-    "FATAL"
+    INFO 	= "INFO",
+	WARN 	= "WARN",
+	ERROR 	= "ERROR",
+	FATAL 	= "FATAL"
 }
 
 export class Logger {
@@ -19,7 +19,7 @@ export class Logger {
         })
     }
     logAll(type: LogType, log: String) {
-        console.log(`[${type}[enum]]: ${log}`)
+        console.log(`[${type}]: ${log}`)
         fs.writeFile("./Log.txt", `[${type}]: ${log}`, function(err) {
             if(err) {
                 return console.log(err)
