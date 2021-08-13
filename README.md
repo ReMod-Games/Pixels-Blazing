@@ -2,7 +2,7 @@
 Pixels Blazing is a top-down isometric shooter game.
 
 ## Development
-To contribute or help on development, you can contribute code or assets and test them in production via the following commands.
+To contribute or help on development, you can contribute code or assets and test them in production via the following commands. Assets, which include files like `.mp4`, `.png`, `.json` etc. but are not limited to, are stored under `dist/assets`. 
 
 | *     | Command           | Description                                                                               |
 | ---   | ---               |   ---                                                                                     |
