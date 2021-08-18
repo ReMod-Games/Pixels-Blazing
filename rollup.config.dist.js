@@ -20,8 +20,7 @@ export default {
         file: './dist/dist.js',
         name: 'PixelsBlazing',
         format: 'iife',
-        sourcemap: true,
-        intro: 'var global = window;'
+        sourcemap: true
     },
 
     plugins: [
@@ -54,9 +53,9 @@ export default {
         typescript(),
 
         //  See https://www.npmjs.com/package/rollup-plugin-uglify for config options
-        uglify({
-            mangle: false
-        }),
+        // uglify({
+        //     mangle: false
+        // }),
 
         terser({ format: { comments: false } })
 

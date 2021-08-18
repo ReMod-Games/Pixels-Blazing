@@ -20,8 +20,7 @@ export default {
         file: './dist/dist.js',
         name: 'PixelsBlazing',
         format: 'iife',
-        sourcemap: true,
-        intro: 'var global = window;'
+        sourcemap: true
     },
 
     plugins: [
@@ -45,9 +44,6 @@ export default {
         commonjs({
             include: [
                 'node_modules/babylonjs/**'
-            ],
-            exclude: [ 
-                'node_modules/phaser/src/polyfills/requestAnimationFrame.js'
             ],
             sourceMap: true,
             ignoreGlobal: true

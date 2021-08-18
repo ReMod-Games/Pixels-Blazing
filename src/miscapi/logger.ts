@@ -1,4 +1,4 @@
-export const fs = require('fs')
+const fs = require('fs')
 
 export enum LogType {
     INFO 	= "INFO",
@@ -11,7 +11,7 @@ export class Logger {
     localWritePath = `${__dirname}/logs/log_${this.localTime}.txt`
 
     init() {
-        let dir: String = __dirname + '/logs';
+        let dir = __dirname + '/logs';
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir)
         }      
