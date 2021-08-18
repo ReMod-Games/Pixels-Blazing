@@ -53,6 +53,7 @@
 # ignore compiles into dist
 dist/dist.js
 dist/dist.js.map
+dist/logs/
 
 # ignore node/grunt dependency directories
 node_modules/

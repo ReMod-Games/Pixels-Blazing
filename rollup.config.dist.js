@@ -46,9 +46,6 @@ export default {
             include: [
                 'node_modules/babylonjs/**'
             ],
-            exclude: [ 
-                'node_modules/phaser/src/polyfills/requestAnimationFrame.js'
-            ],
             sourceMap: false,
             ignoreGlobal: true
         }),
