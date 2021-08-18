@@ -5,9 +5,12 @@
     "main": "src/index.ts",
     "scripts": {
         "test": "echo Test Commands!",
-        "dev": "node buildscripts/dev.js",
-        "build": "node buildscripts/build.js",
-        "watch": "node buildscripts/watch.js"
+        "bs_dev": "node buildscripts/dev.js",
+        "dev": "rollup --config rollup.config.dev.js"
+        "bs_build": "node buildscripts/build.js",
+        "build": "rollup --config rollup.config.dist.js"
+        "bs_watch": "node buildscripts/watch.js",
+        "watch": "rollup --config --watch rollup.config.dev.js"
     },
     "repository": {
         "type": "git",
