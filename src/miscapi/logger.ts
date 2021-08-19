@@ -1,4 +1,4 @@
-import * as fs from 'fs'
+let fs = require('fs')
 
 export enum LogType {
     INFO 	= "INFO",
