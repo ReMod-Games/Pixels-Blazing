@@ -5,6 +5,6 @@ import { createScene } from "./scenes/SceneManager"
 const VLogger: Logger = new Logger()
 VLogger.init()
 const PixelsBlazingEngine: BABYLON.Engine = new BABYLON.Engine(document.getElementById('game') as HTMLCanvasElement, false)
-VLogger.logAll(LogType.INFO, "Engine Initialized!")
+VLogger.logConsoleOnly(LogType.INFO, "Engine Initialized!")
 const MainScene = createScene(PixelsBlazingEngine)
-VLogger.logAll(LogType.INFO, "Main Scene Loaded.")
+VLogger.logConsoleOnly(LogType.INFO, "Main Scene Loaded.")
