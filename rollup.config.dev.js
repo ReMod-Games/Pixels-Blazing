@@ -43,7 +43,7 @@ export default {
         //  We need to convert the Phaser 3 CJS modules into a format Rollup can use:
         commonjs({
             include: [
-                '/node_modules/'
+                '/node_modules/babylonjs/babylon.js'
             ],
             sourceMap: true,
             ignoreGlobal: true
@@ -61,9 +61,6 @@ export default {
             headers: {
                 'Access-Control-Allow-Origin': '*'
             }
-        }),
-
-        terser({ format: { comments: false } })
-
+        })
     ]
 };
