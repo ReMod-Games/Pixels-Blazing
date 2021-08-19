@@ -10,7 +10,9 @@
         "bs_build": "node buildscripts/build.js",
         "build": "rollup --config rollup.config.dist.js",
         "bs_watch": "node buildscripts/watch.js",
-        "watch": "rollup --config --watch rollup.config.dev.js"
+        "watch": "rollup --config --watch rollup.config.dev.js",
+		"ngui_build": "npm run build && qode ./dist/dist.js",
+		"ngui_debug": "npm run dev && qode --inspect ./dist/dist.js"
     },
     "repository": {
         "type": "git",
