@@ -4,7 +4,7 @@
     "description": "Pixels Blazing is a top-down isometric shooter game.",
     "main": "src/index.ts",
     "scripts": {
-        "test": "echo Test Commands!",
+        "test": "echo 'Test Commands!'",
         "dev": "rollup --config rollup.config.dev.js",
         "build": "rollup --config rollup.config.dist.js",
         "watch": "rollup --config --watch rollup.config.dev.js",
