@@ -11,8 +11,8 @@
         "build": "rollup --config rollup.config.dist.js",
         "bs_watch": "node buildscripts/watch.js",
         "watch": "rollup --config --watch rollup.config.dev.js",
-		"ngui_build": "npm run build && qode ./dist/dist.js",
-		"ngui_debug": "npm run dev && qode --inspect ./dist/dist.js"
+        "ngui_build": "npm run build && qode ./dist/dist.js",
+        "ngui_debug": "npm run dev && qode --inspect ./dist/dist.js"
     },
     "repository": {
         "type": "git",
@@ -32,7 +32,8 @@
     },
     "homepage": "https://github.com/ReMod-Studios-Games/Pixels-Blazing#readme",
     "dependencies": {
-        "@rollup/plugin-replace": "^2.3.4",
+        "@rollup/plugin-replace": "^2.4.2",
+        "@rollup/plugin-typescript": "^8.2.5",
         "babylonjs": "^4.2.0",
         "rollup": "^2.56.2",
         "rollup-plugin-commonjs": "^10.1.0",

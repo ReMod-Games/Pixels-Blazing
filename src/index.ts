@@ -6,7 +6,7 @@ const { QMainWindow } = require('@nodegui/nodegui')
 const window = new QMainWindow();
 window.show();
 // prevent GC
-(globalThis as any).win = window;
+globalThis.win = window;
 
 const VLogger = new Logger();
 VLogger.init();
