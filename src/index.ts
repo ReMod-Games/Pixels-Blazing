@@ -1,4 +1,4 @@
-import {Logger , LogType} from "./miscapi/Logger"
+import {Logger , LogType} from "./miscapi/logger"
 // let window = global
 const logger = new Logger()
 logger.init()

@@ -2,7 +2,7 @@
 const { exec } = require("child_process")
 // your path to rollup
 
-exec(`rollup --config rollup.config.dist.js`, (error, stdout, stderr) => {
+exec(`%ROLLUP_SYS% --config rollup.config.dist.js`, (error, stdout, stderr) => {
     if (error) {
         console.log(`${error.message}`)
         return
