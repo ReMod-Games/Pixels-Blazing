@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: |
         npm install
-        "./node_modules/rollup/dist/bin/rollup" --config rollup.config.dev.js
+        "./node_modules/rollup/dist/bin/rollup" --config rollup.config.dist.js
         
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
